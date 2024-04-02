@@ -2,7 +2,7 @@
 """
 Created on Mon Mar 11 11:31:40 2024
 
-PEDRO. Para actualizar datos de la noaa, los descarga los del año, con el ultimo dato
+PEDRO. Para actualizar datos de la noaa, descarga los del año, con el ultimo dato
 disponible
 
 @author: andrea.garcia
@@ -12,7 +12,7 @@ import datetime
 import os
 import xarray as xr
 
-#data_dir = r'C:\Users\andre\scripts\python\datos'
+#ruta_archivo = r'C:\Users\andre\scripts\python\datos'
 
 # RUTA RELATIVA, decirle donde guardarlo, en carpeta "datos" de la ruta donde está el script
 directorio_actual = os.getcwd()
